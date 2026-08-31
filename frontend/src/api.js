@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://fluoroflow-api.onrender.com";
 
 export function imageUrl(path) {
   if (!path) return "";
