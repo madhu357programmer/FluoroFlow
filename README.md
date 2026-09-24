@@ -166,3 +166,6 @@ This step is optional — for hackathon demo purposes, running both servers loca
 
 - This is a **proof-of-concept screening system**. It does not scientifically confirm that every detected particle is a microplastic — it flags bright, particle-shaped regions consistent with what fluorescent-stained microplastics would look like under UV/blue light.
 - The filtration response is a **software simulation**. No physical pump, valve, Raspberry Pi, or ESP32 is controlled by this MVP.
+
+  ## 11. Potential Scope
+  - FluoroFlow can be extended into a real-time microplastic screening system by integrating continuous camera capture with lightweight AI inference on an edge device such as Raspberry Pi. Real-time frame processing, optimized models, and controlled illumination can enable faster particle detection and contamination-level estimation. The output can then be linked with the ESP32 control system to support automatic, contamination-based filtration, moving FluoroFlow toward continuous field monitoring and adaptive water treatment.
